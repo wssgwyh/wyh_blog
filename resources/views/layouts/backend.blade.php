@@ -42,9 +42,9 @@
         <!-- Logo -->
         <a href="{{ url('backend/' )}}" class="logo">
             <!-- mini logo for sidebar mini 50x50 pixels -->
-            <span class="logo-mini"><b>M</b>B</span>
+            <span class="logo-mini"><b>WYH</b></span>
             <!-- logo for regular state and mobile devices -->
-            <span class="logo-lg"><b>Moell</b>&nbsp;Blog</span>
+            <span class="logo-lg"><b>Wyh's</b>&nbsp;Blog</span>
         </a>
         <!-- Header Navbar: style can be found in header.less -->
         <nav class="navbar navbar-static-top">
@@ -67,7 +67,7 @@
                                 <img src="{{ asset('uploads/avatar')."/".Auth::user()->user_pic }}" class="img-circle" alt="User Image">
 
                                 <p>
-                                    Moell Blog - 做努力的自己
+                                    Wyh's Blog - 做努力的自己
                                     {{--<small></small>--}}
                                 </p>
                             </li>
@@ -98,7 +98,7 @@
                 </div>
                 <div class="pull-left info">
                     <p></p>
-                    <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
+                    <a href="#"><i class="fa fa-circle text-success"></i> 在线中</a>
                 </div>
             </div>
             <ul class='sidebar-menu'>
@@ -123,7 +123,7 @@
         <div class="pull-right hidden-xs">
 
         </div>
-        <strong>Powered by <a href="http://moell.cn" target="_blank">Moell Blog</a></strong>
+        <strong>Powered by <a href="https://github.com/wssgwyh" target="_blank">Wyh's Blog</a></strong>
     </footer>
 </div>
 <!-- ./wrapper -->
