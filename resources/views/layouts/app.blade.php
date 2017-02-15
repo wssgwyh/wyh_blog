@@ -13,17 +13,17 @@
     <meta name="author" content="Moell" />
 
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-    <link rel="shortcut icon" href="{{ asset('favicon.ico') }}">
+    <link rel="shortcut icon" href="{{ asset('//wyhblog.wssgwyh.com/favicon.ico') }}">
 
     <!-- Animate.css -->
-    <link rel="stylesheet" href="{{ asset('default/css/animate.css') }}">
+    <link rel="stylesheet" href="{{ asset('//wyhblog.wssgwyh.com/default/css/animate.css') }}">
 
     <!-- Bootstrap  -->
-    <link rel="stylesheet" href="{{ asset('default/css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('//wyhblog.wssgwyh.com/default/css/bootstrap.min.css') }}">
 
     @yield('style')
 
-    <link rel="stylesheet" href="{{ asset('default/css/index.css') }}">
+    <link rel="stylesheet" href="{{ asset('//wyhblog.wssgwyh.com/default/css/index.css') }}">
 
 </head>
 <body>
@@ -80,12 +80,12 @@
 @include('default.footer')
 
 <!-- jQuery -->
-<script src="{{ asset('default/js/jQuery-2.2.0.min.js') }}"></script>
+<script src="{{ asset('//wyhblog.wssgwyh.com/default/js/jQuery-2.2.0.min.js') }}"></script>
 <!-- Bootstrap -->
-<script src="{{ asset('default/js/bootstrap.min.js') }}"></script>
+<script src="{{ asset('//wyhblog.wssgwyh.com/default/js/bootstrap.min.js') }}"></script>
 <!-- Waypoints -->
 
-<script src="{{ asset('default/js/index.js') }}"></script>
+<script src="{{ asset('//wyhblog.wssgwyh.com/default/js/index.js') }}"></script>
 
 @yield('script')
 </body>

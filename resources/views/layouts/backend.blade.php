@@ -58,13 +58,13 @@
                     <!-- User Account: style can be found in dropdown.less -->
                     <li class="dropdown user user-menu">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                            <img src="{{ asset('uploads/avatar')."/".Auth::user()->user_pic }}" class="user-image" alt="User Image">
+                            <img src="{{ asset('//wyhblog.wssgwyh.com/uploads/avatar')."/".Auth::user()->user_pic }}" class="user-image" alt="User Image">
                             <span class="hidden-xs"></span>
                         </a>
                         <ul class="dropdown-menu">
                             <!-- User image -->
                             <li class="user-header">
-                                <img src="{{ asset('uploads/avatar')."/".Auth::user()->user_pic }}" class="img-circle" alt="User Image">
+                                <img src="{{ asset('//wyhblog.wssgwyh.com/uploads/avatar')."/".Auth::user()->user_pic }}" class="img-circle" alt="User Image">
 
                                 <p>
                                     Wyh's Blog - 做努力的自己
@@ -77,7 +77,7 @@
                                     <a href="{{ url('/') }}" target="_blank" class="btn btn-default btn-flat">首页</a>
                                 </div>
                                 <div class="pull-right">
-                                    <a href="{{ url('backend/logout') }}" class="btn btn-default btn-flat">退出</a>
+                                    <a href="{{ url('//wyhblog.wssgwyh.com/backend/logout') }}" class="btn btn-default btn-flat">退出</a>
                                 </div>
                             </li>
                         </ul>
@@ -94,7 +94,7 @@
             @inject('backendPresenter', 'App\Presenters\BackendPresenter')
             <div class="user-panel">
                 <div class="pull-left image">
-                    <img src="{{ asset('uploads/avatar')."/".Auth::user()->user_pic }}" class="img-circle" alt="User Image">
+                    <img src="{{ asset('//wyhblog.wssgwyh.com/uploads/avatar')."/".Auth::user()->user_pic }}" class="img-circle" alt="User Image">
                 </div>
                 <div class="pull-left info">
                     <p></p>
@@ -129,21 +129,21 @@
 <!-- ./wrapper -->
 
 <!-- jQuery 2.2.0 -->
-<script src="{{ asset('AdminLTE/plugins/jQuery/jQuery-2.2.0.min.js') }}"></script>
+<script src="{{ asset('//wyhblog.wssgwyh.com/AdminLTE/plugins/jQuery/jQuery-2.2.0.min.js') }}"></script>
 
 <!-- Bootstrap 3.3.6 -->
-<script src="{{ asset('AdminLTE/bootstrap/js/bootstrap.min.js') }}"></script>
+<script src="{{ asset('//wyhblog.wssgwyh.com/AdminLTE/bootstrap/js/bootstrap.min.js') }}"></script>
 
 <!-- AdminLTE App -->
-<script src="{{ asset('AdminLTE/dist/js/app.min.js') }}"></script>
+<script src="{{ asset('//wyhblog.wssgwyh.com/AdminLTE/dist/js/app.min.js') }}"></script>
 
-<script src="{{ asset('layer/layer.js') }}" ></script>
+<script src="{{ asset('//wyhblog.wssgwyh.com/layer/layer.js') }}" ></script>
 
-<script src="{{ asset('bootstrapvalidator/dist/js/bootstrapValidator.min.js') }}" ></script>
+<script src="{{ asset('//wyhblog.wssgwyh.com/bootstrapvalidator/dist/js/bootstrapValidator.min.js') }}" ></script>
 
-<script src="{{ asset('js/moell.js') }}" ></script>
+<script src="{{ asset('//wyhblog.wssgwyh.com/js/moell.js') }}" ></script>
 
-<script src="{{ asset('js/backend.js') }}" ></script>
+<script src="{{ asset('//wyhblog.wssgwyh.com/js/backend.js') }}" ></script>
 
 @yield('javascript')
 </body>
